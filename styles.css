@@ -36,6 +36,12 @@ html {
   text-decoration: none;
   font-weight: bold;
 }
+.nav-links a:hover {
+  color: #0f4c81;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
 h1 {
     color: #0f4c81;
 }
@@ -63,5 +69,21 @@ section {
   padding: 12px 20px;
   text-decoration: none;
   border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+.button:hover {
+  background-color: #08385f;
+}
+.site-footer {
+  max-width: 900px;
+  margin: 32px auto 0 auto;
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+}
+.site-footer a {
+  color: #0f4c81;
+  text-decoration: none;
   font-weight: bold;
 }
