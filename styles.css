@@ -140,6 +140,22 @@ section {
   color: #0f4c81;
 }
 
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.skill-tag {
+  background-color: #f4f7fb;
+  color: #0f4c81;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: bold;
+  border: 1px solid #dde5ef;
+}
+
 @media (max-width: 600px) {
   .site-nav {
     flex-direction: column;
@@ -180,5 +196,21 @@ section {
 
   .project-grid {
     grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+  }
+
+  .skill-tag {
+    background-color: #f4f7fb;
+    color: #0f4c81;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-weight: bold;
+    border: 1px solid #dde5ef;
   }
 }
